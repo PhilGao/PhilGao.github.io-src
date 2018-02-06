@@ -1,1 +1,2 @@
 '*.pyc'  #don't need pyc file
+'*.pyc'  #don't need pyc files
