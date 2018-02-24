@@ -82,6 +82,7 @@ pelican quickstart
 #####Step 6 : Build Blog
 ```
 pelican content
+pelican content -s publishconf.py
 ```
 #####Step 7 : Preview the Site
 
