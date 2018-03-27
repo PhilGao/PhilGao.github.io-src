@@ -7,6 +7,7 @@ SITENAME = 'PhilGao'
 SITEURL = ''
 
 PATH = 'content'
+STATIC_PATHS = ['images']
 
 TIMEZONE = 'Europe/Paris'
 
@@ -27,6 +28,8 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
+
+DISQUS_SITENAME = "gaohao"
 
 DEFAULT_PAGINATION = 10
 

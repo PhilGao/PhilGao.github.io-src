@@ -1,13 +1,14 @@
-Title: Build Your Own Static Blog by Pelican and Github Page
+Title: Build Your Own Static Blog by Pelican and Github Page PartI
 Date: 2018-02-23 22:39
 Modified: 2018-02-23 22:39
 Category: Blog
 Tags: pelican, publishing
-Slug: Build Your Own Static Blog by Pelican and Github Page
+Slug: Build Your Own Static Blog by Pelican and Github Page PartI
 Authors: Phil.Gao
-Summary: Build Your Own Static Blog by Pelican and Github Page
+Summary: Introducation how to quick start to set up the site,add themes,configure publish configuration file & apply theme.Also record some tips on git command that are used to commit into github.
 
 #Build Your Own Static Blog by Pelican and Github Page
+![Alt text]({filename}/images/cat.jpg "Cat")
 
 ### What's the Pelican ?
 Pelican is a static site generator, written in Python. You could see it as a tools that able to transform your markdown post as html format.
