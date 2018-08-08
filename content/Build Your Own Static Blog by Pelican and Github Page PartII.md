@@ -14,9 +14,12 @@ Part2 would go to answer some questions i left in part1.It also post some issue 
 ## How to insert pictures in pelican.
 I put the link in pelican guide about how to insert static file here.
 [*Link to internal content*](http://docs.getpelican.com/en/latest/content.html?highlight=files#linking-to-internal-content)
-######  Step1 Create one Folder under content which named images
+###### Step1 Create one Folder under content which named images
 ######  Step2 Put the picture that you want to link to in this fold. I download a cat picture and name it as cat.jpg
 ######  Step3 Use below MD gramar to insert picture.In here {filename} would direct to content folder.
 
-    ![Alt text]({filename}/images/cat.jpg "Cat")
+```
+![Alt text]({filename}/images/cat.jpg "Cat")
+```
+
 ![Alt text]({filename}/images/cat.jpg "Cat")

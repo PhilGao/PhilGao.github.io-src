@@ -63,7 +63,7 @@ pip install pelican
 
 #####Step 4: Initial the Repository
 Clone the souce code repository  
-```python
+```
 git clone git@github.com:username/username.github.io-src blog
 cd blog
 ```
@@ -72,9 +72,10 @@ Confirm the repository information
 git remote -v
 ```
 Add submodel as the output folder to blog repository
+
 ```
 git submodule add git@github.com:username/username.github.io.git output
-````
+```
 
 #####Step 5 : Set up Pelican 
 ```python
@@ -95,15 +96,18 @@ python -m pelican.server
 
 #####Step 8 : Add & Commit Change
    
-    cd output
-    git add .
-    git commit -m "First post."
-    git push -u origin master
-    cd ..
-    echo '*.pyc' >> .gitignore #don't need pyc files
-    git add .
-    git commit -m "First commit."
-    git push -u origin master
+
+```
+cd output
+git add .
+git commit -m "First post."
+git push -u origin master
+cd ..
+echo '*.pyc' >> .gitignore #don't need pyc files
+git add .
+git commit -m "First commit."
+git push -u origin master
+```
 
 ### How to add themes for you blog ?
 Pelican has made a lot of themes in the github. You could preview these themes in http://www.pelicanthemes.com/ and choose one you like.
@@ -133,3 +137,5 @@ THEME = "bootlex"
 
 
 ----------
+
+
