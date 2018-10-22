@@ -6,6 +6,7 @@ Tags: pelican, publishing
 Slug: Build Your Own Static Blog by Pelican and Github Page PartI
 Authors: Phil.Gao
 Summary: Introducation how to quick start to set up the site,add themes,configure publish configuration file & apply theme.Also record some tips on git command that are used to commit into github.
+illustration:images/I1.jpg
 
 #Build Your Own Static Blog by Pelican and Github Page
 ![Alt text]({filename}/images/cat.jpg "Cat")

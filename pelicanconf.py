@@ -34,7 +34,7 @@ DISQUS_SITENAME = "gaohao"
 
 DEFAULT_PAGINATION = 10
 
-THEME = "pelican-elegant-1.3"
+THEME = "pelican-elegant"
 SITESUBTITLE = "行百里者半九十"
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
